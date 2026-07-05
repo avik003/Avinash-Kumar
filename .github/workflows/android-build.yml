@@ -23,12 +23,7 @@ jobs:
           cache: 'npm'
 
       - name: Install Node Dependencies
-        run: |
-          if [ -f package-lock.json ]; then
-            npm ci || npm install
-          else
-            npm install
-          fi
+        run: npm install --legacy-peer-deps
 
       - name: Build Web Application
         run: npm run build
