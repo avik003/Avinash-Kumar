@@ -1,0 +1,6 @@
+{
+  "appId": "com.cameracapture.app",
+  "appName": "Camera Capture",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

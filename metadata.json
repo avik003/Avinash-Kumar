@@ -1,0 +1,10 @@
+{
+  "name": "SnapQR Studio",
+  "description": "Capture photos instantly, save them to a local gallery, and easily generate custom QR codes from any text.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
